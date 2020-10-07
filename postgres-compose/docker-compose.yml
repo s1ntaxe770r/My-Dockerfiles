@@ -6,8 +6,8 @@ services:
     image: postgres:9.6.17-alpine 
     restart: always
     environment:
-      POSTGRES_PASSWORD: employer
-      POSTGRES_USER : employer
+      POSTGRES_PASSWORD: pgadmin999
+      POSTGRES_USER : root
     ports:
       - 5432:5432
-
+      
