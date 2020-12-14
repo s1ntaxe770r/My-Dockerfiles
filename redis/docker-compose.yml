@@ -1,5 +1,5 @@
 redis:
-  image: redis:latest
+  image: redis:alpine
   container_name: redis
   ports:
     - "6382:6379"
