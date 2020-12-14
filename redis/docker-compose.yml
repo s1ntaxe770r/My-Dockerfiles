@@ -3,5 +3,3 @@ redis:
   container_name: redis
   ports:
     - "6382:6379"
-  networks:
-    - redis-network
